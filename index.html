@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="title d-flex flex-row justify-content-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUN477jssZgnLoQzUtGewc55dWG44jq7OQQ&usqp=CAU" class="image"/>
+       <div class="adjust">
+        <span id="firstNumber" class="number"></span>
+        <span class="operator">+</span>
+        <span id="secondNumber"class="number"></span>
+        <span class="operator">=</span>
+        <input id="userInput" class="user-input" type="text"/>
+    </div>
+        <div>
+        <button id="checkButton" class="button" onclick="checkAgain()">Check</button>
+        <button id="restartButton" class="button" onclick="restartAgain()">Restart</button>
+        <p id="gameResult" class="game-result"></p>
+    </div>
+
+        <script src="script.js"></script>
+    </div>
+    
+</body>
+</html>
